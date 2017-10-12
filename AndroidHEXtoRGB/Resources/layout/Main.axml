@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:text="Write a HEX value" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/hexValueText"
+        android:hint="FFFFFF" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/convertButton"
+        android:text="Convert" />
+    <TextView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/redText"
+        android:text="Red"
+        android:textColor="#ffd50000" />
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/greenText"
+        android:text="Green"
+        android:textColor="#ff64dd17" />
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/blueText"
+        android:text="Blue"
+        android:textColor="#ff2962ff" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/colorView" />
+</LinearLayout>
